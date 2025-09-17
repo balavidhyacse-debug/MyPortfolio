@@ -69,7 +69,7 @@ section {
 
 #home p {
   font-size: 1.2rem;
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -141,3 +141,4 @@ section {
     align-items: flex-start;
   }
 }
+
