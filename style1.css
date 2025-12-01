@@ -44,11 +44,6 @@ nav a:hover {
   padding: 0 20px;
 }
 
-/* IMPORTANT: prevent fixed navbar overlapping anchor targets */
-section {
-  scroll-margin-top: 140px;
-}
-
 /* Section Titles */
 h1 {
   font-size: 2.5rem;
@@ -99,7 +94,6 @@ section {
   text-decoration: underline;
 }
 
-
 /* Skills */
 .skills-list {
   list-style: none;
@@ -147,7 +141,7 @@ section {
   }
 }
 
-/* Power BI image style - perfectly aligned */
+/* Power BI image style */
 .pb-gallery {
   margin-top: 15px;
   width: 100%;
@@ -161,4 +155,10 @@ section {
   display: block;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+/* ⭐⭐⭐ IMPORTANT FIX ⭐⭐⭐ */
+/* Makes Dashboard scroll perfectly below nav */
+section {
+  scroll-margin-top: 140px;
 }
