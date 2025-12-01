@@ -142,13 +142,18 @@ section {
   }
 }
 
-/* Power BI image style */
+/* Power BI image style - perfectly aligned */
 .pb-gallery {
   margin-top: 15px;
+  width: 100%;
+  text-align: center;
 }
 
 .pb-thumb {
   width: 100%;
+  max-width: 850px;    /* keeps it aligned with your main container */
+  display: block;
+  margin: 0 auto;      /* centers the image */
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
