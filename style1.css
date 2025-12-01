@@ -150,13 +150,14 @@ section {
 }
 
 .pb-thumb {
-  width: 100%;
-  max-width: 850px;    /* keeps it aligned with your main container */
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
   display: block;
-  margin: 0 auto;      /* centers the image */
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
+
 
 
 
